@@ -1,9 +1,23 @@
 /*
     I worked on my website independently. I started by creating this basic.css file for the general format I want for all my pages like the nav bar and footer.
 */
+/*
+    Checklist: 
+    github pages
+    lucid chart diagram
 
+    headings, paragraphs, images, audio, video
+    css selectors
+    navigation
+    footer and html copyright symbol
+    commented descriptions
+    one photo gallery - SGO PAGE
+    one table - SGO PAGE
+    one form - MAJORS PAGE
+    two sized versions
+*/
 body {
-    background-color: whitesmoke;
+    background-color: ghostwhite;
     padding-top:25px;
 }
 
@@ -39,4 +53,5 @@ body {
     width: 100px;
     height: 100px;
     align-items:center;
+    padding-right:10px;
 }

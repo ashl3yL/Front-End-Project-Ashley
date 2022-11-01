@@ -1,0 +1,26 @@
+.space {
+    padding:15px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: [first] 70px [line2] 70% [last-line] 10%;
+}
+
+.name {
+    grid-column: 1/span 3;
+    text-align:center;
+}
+
+.content {
+    grid-column: 1/span 2;
+    padding:10px;
+}
+
+.quote {
+    text-align:center;
+}
+
+.space img {
+    width: 100%;
+    object-fit: cover;
+    grid-column: 3/span 1;
+}
