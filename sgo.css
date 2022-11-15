@@ -1,4 +1,47 @@
-img {
-    width: 20%;
-    height: 20%;
+.album {
+    padding-left: 20%;
+    padding-right:20%;
+    padding-bottom:15%;
+    display: grid;
+    grid-template-columns: [first] 25% [line2] 25% [line3] 25% [last-line] 25%;
+    grid-gap: 3% 5%;
+}
+.album img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.priceList{
+    background-color: lightsteelblue;
+    border: 5px double rgb(3, 64, 129);
+    text-align: center;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+table {
+    width:70%;
+    margin-left: 15%;
+}
+
+th {
+    width: 50%;
+}
+
+.package {
+    display: flex;
+    align-items:center;
+}
+
+.pkText {
+    flex-direction: column;
+    align-content: center;
+    padding-left: 2%;
+}
+
+.pkImg {
+    object-fit: fill;
+    width: 35%;
+    height: 35%;
 }
