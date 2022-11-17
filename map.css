@@ -19,7 +19,7 @@ p {
     color: rgb(46, 46, 46);
 }
 
-img {
+.map {
     width: 75%;
     display:block;
     margin-left:auto;
