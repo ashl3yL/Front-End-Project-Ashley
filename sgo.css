@@ -1,3 +1,20 @@
+h2 {
+    color: rgb(3, 64, 129);
+    grid-column: 1/span 3;
+    text-align:center;
+}
+
+h3 {
+    background-color: lightsteelblue;
+    color: midnightblue;
+    padding-left: 5px;
+    border-left: 5px solid steelblue;
+}
+
+p, ul, li {
+    color: rgb(46, 46, 46);
+}
+
 .album {
     padding-left: 20%;
     padding-right:20%;
