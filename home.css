@@ -1,3 +1,7 @@
+/*  I tried to finish all my HTML before I worked on any of my CSS.
+    I ordered my work like so: HTML, CSS, "Second Screen"
+    Of the things in the checklist, I did the second screen last because I wanted to have an idea of I wanted my website to look before condensing it into a smaller screen
+*/
 .space {
     padding:15px;
     display:grid;
@@ -37,7 +41,7 @@ h3 {
     border-left: 5px solid steelblue;
 }
 
-p { 
+.content p { 
     text-indent: 5%;
     color: rgb(46, 46, 46);
 }

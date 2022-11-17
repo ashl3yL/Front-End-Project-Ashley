@@ -1,0 +1,53 @@
+/*  I tried to finish all my HTML before I worked on any of my CSS.
+    I ordered my work like so: HTML, CSS, "Second Screen"
+    Of the things in the checklist, I did the second screen last because I wanted to have an idea of I wanted my website to look before condensing it into a smaller screen
+*/
+h2 {
+    color: rgb(3, 64, 129);
+    grid-column: 1/span 3;
+    text-align:center;
+}
+
+h3 {
+    background-color: lightsteelblue;
+    color: midnightblue;
+    padding-left: 5px;
+    border-left: 5px solid steelblue;
+}
+
+p {
+    color: rgb(46, 46, 46);
+}
+
+img {
+    width: 75%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: 4px outset rgb(3, 64, 129);
+}
+
+.indent p{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.stairs {
+    display: flex;
+    align-items:center;
+}
+
+.stext {
+    flex-direction: column;
+    padding-left: 2%;
+}
+
+.simg {
+    object-fit: fill;
+    width: 40%;
+    height: 40%;
+}
+
+.bottombar p {
+    color: rgb(3, 64, 129);
+}
