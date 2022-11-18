@@ -17,3 +17,7 @@ h4 {
 p, ul, li {
     color: rgb(46, 46, 46);
 }
+
+.bottombar p {
+    color: rgb(3, 64, 129);
+}
